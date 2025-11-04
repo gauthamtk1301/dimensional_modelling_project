@@ -5,7 +5,7 @@ Welcome to the **Data Lakehouse Project** repository! 🚀
 This project demonstrates the design and implementation of a modern data lakehouse architecture on Databricks, integrating real-time data ingestion, streaming ETL, and dimensional modeling for analytics.
 
 ---
-##⚙️  Key Features
+⚙️  Key Features
 
 **Real-time streaming ETL**:
 Ingests and processes data in near real time as soon as files arrive in the source directories.
@@ -23,7 +23,7 @@ Combines the flexibility of a data lake with the reliability and performance of 
 Gold layer is modeled as a star schema for ease of querying and understandings.
 
 ---
-## 📊 Gold Layer Data Catalog
+ 📊 Gold Layer Data Catalog
 
 
 1. **dim_customers**: Stores enriched customer details with demographic and geographic attributes.Key Columns: customer_key, customer_id, first_name, last_name, country, gender, marital_status, birthdate, create_date.
@@ -32,7 +32,7 @@ Gold layer is modeled as a star schema for ease of querying and understandings.
 
 
 ---
-## 🧠 Technologies Used
+ 🧠 Technologies Used
 
 | Category                       | Tools / Frameworks                  |
 | ------------------------------ | ----------------------------------- |
