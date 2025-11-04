@@ -29,6 +29,8 @@ Gold layer is modeled as a star schema for ease of querying and understandings.
 1. **dim_customers**: Stores enriched customer details with demographic and geographic attributes.Key Columns: customer_key, customer_id, first_name, last_name, country, gender, marital_status, birthdate, create_date.
 2. **dim_products**: Holds product-related information and classifications.Key Columns: product_key, product_id, product_name, category, subcategory, cost, product_line, start_date
 3. **fact_sales**: Contains transactional sales data for analysis.Key Columns: order_number, customer_key, product_key, order_date, sales_amount, quantity, price.
+   <img width="1497" height="545" alt="image" src="https://github.com/user-attachments/assets/d5275a16-1b91-4bc2-92ef-b838e8dde40d" />
+
 
 
 ---
