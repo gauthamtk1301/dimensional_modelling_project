@@ -5,7 +5,7 @@ Welcome to the **Data Lakehouse Project** repository! 🚀
 This project demonstrates the design and implementation of a modern data lakehouse architecture on Databricks, integrating real-time data ingestion, streaming ETL, and dimensional modeling for analytics.
 
 ---
-##⚙️  Key Features
+⚙️  Key Features
 
 **Real-time streaming ETL**:
 Ingests and processes data in near real time as soon as files arrive in the source directories.
