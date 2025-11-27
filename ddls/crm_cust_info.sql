@@ -8,6 +8,6 @@ CREATE TABLE gautham.gtk_scm.crm_cust_info (
   cst_create_date DATE,
   dwh_create_date TIMESTAMP,
   audit_checksum STRING,
-  active_flag string,
-  eff_from_date timestamp,
-  eff_thru_date timestamp)
+  is_active string,
+  effective_start_date timestamp,
+  effective_end_date timestamp)
