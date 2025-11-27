@@ -1,0 +1,15 @@
+CREATE TABLE gautham.gtk_scm.crm_sales_details (
+  sls_ord_num STRING,
+  sls_prd_key STRING,
+  sls_cust_id INT,
+  sls_order_dt DATE,
+  sls_ship_dt DATE,
+  sls_due_dt DATE,
+  sls_sales INT,
+  sls_quantity INT,
+  sls_price DOUBLE,
+  dwh_create_date TIMESTAMP,
+  audit_checksum STRING,
+  is_active string,
+  effective_start_date timestamp,
+  effective_end_date timestamp)
