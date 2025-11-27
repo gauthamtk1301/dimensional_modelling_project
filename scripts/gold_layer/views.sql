@@ -15,9 +15,9 @@ SELECT
     ci.cst_create_date                 AS create_date
 FROM gautham.gtk_scm.crm_cust_info ci
 LEFT JOIN gautham.gtk_scm.erp_cust_az12 ca
-    ON ci.cst_key = ca.cid
+    ON ci.cst_key = ca.cid and ci.is_active='Y' and ca.is_active='Y'
 LEFT JOIN gautham.gtk_scm.erp_loc_a101 la
-    ON ci.cst_key = la.cid;
+    ON ci.cst_key = la.cid and ci.is_active='Y' and la.is_active='Y';
 
 
     	
@@ -37,7 +37,7 @@ SELECT
     pn.prd_start_dt AS start_date
 FROM gautham.gtk_scm.crm_prd_info pn
 LEFT JOIN gautham.gtk_scm.erp_px_cat_g1v2 pc
-    ON pn.cat_id = pc.id
+    ON pn.cat_id = pc.id and pn.is_active='Y' and pc.is_active='Y'
 WHERE pn.prd_end_dt IS NULL; -- Filter out all historical data;
 
 CREATE VIEW gautham.gtk_scm.fact_sales AS
@@ -53,6 +53,6 @@ SELECT
     sd.sls_price    AS price
 FROM gautham.gtk_scm.crm_sales_details sd
 LEFT JOIN gautham.gtk_scm.dim_products pr
-    ON sd.sls_prd_key = pr.product_number
+    ON sd.sls_prd_key = pr.product_number and sd.is_active='Y' and pr.is_active='Y'
 LEFT JOIN gautham.gtk_scm.dim_customers cu
-    ON sd.sls_cust_id = cu.customer_id;
+    ON sd.sls_cust_id = cu.customer_id and sd.is_active='Y' and cu.is_active='Y';
