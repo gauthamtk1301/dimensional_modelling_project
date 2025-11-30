@@ -14,7 +14,7 @@ Ingests and processes data in near real time as soon as files arrive in the sour
 Standardizes, cleans, and enriches CRM and ERP data before persisting to Delta tables.
 
 **Slowly Changing Dimensions**:
-Implements Slowly Changing Dimensions (Type 1) for maintaining the latest data in delta tables.
+Implements Slowly Changing Dimensions (Type 2) for tracking historical changes in the silver layer.
 
 **Lakehouse architecture**:
 Combines the flexibility of a data lake with the reliability and performance of a data warehouse.
