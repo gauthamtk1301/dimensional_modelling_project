@@ -41,7 +41,7 @@ Gold layer is modeled as a star schema for ease of querying and understandings.
 | **Compute & Processing**       | Apache Spark (Structured Streaming) |
 | **Platform**                   | Databricks                          |
 | **Storage**                    | Delta Lake                          |
-| **Data Modeling**              | Star Schema, SCD Type 1             |
+| **Data Modeling**              | Star Schema, SCD Type 2             |
 | **Languages**                  | PySpark, SQL                        |
 | **Orchestration / Automation** | Databricks Jobs, Auto Loader        |
 
