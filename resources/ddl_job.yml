@@ -12,4 +12,4 @@ resources:
       tasks:
         - task_key: notebook_task
           notebook_task:
-            notebook_path: ../ddls/ddl_notebook.ipynb
+            notebook_path: ../src/ddls/ddl_notebook.ipynb
