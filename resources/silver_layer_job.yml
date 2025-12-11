@@ -19,18 +19,18 @@ resources:
             notebook_path: ../src/silver_layer/crm_prd_info.ipynb
 
         - task_key: crm_sales_details
-                  notebook_task:
-                    notebook_path: ../src/silver_layer/crm_sales_details.ipynb
+          notebook_task:
+            notebook_path: ../src/silver_layer/crm_sales_details.ipynb
 
         - task_key: erp_cust_az12
-                  notebook_task:
-                    notebook_path: ../src/silver_layer/erp_cust_az12.ipynb
+          notebook_task:
+            notebook_path: ../src/silver_layer/erp_cust_az12.ipynb
 
         - task_key: erp_loc_a101
-                  notebook_task:
-                    notebook_path: ../src/silver_layer/erp_loc_a101.ipynb
+          notebook_task:
+            notebook_path: ../src/silver_layer/erp_loc_a101.ipynb
 
         - task_key: erp_px_cat_g1v2
-                  notebook_task:
-                    notebook_path: ../src/silver_layer/erp_px_cat_g1v2.ipynb
+          notebook_task:
+            notebook_path: ../src/silver_layer/erp_px_cat_g1v2.ipynb
 
