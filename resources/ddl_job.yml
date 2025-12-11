@@ -1,0 +1,15 @@
+resources:
+  jobs:
+    table_deployment_job:
+      name: table_deployment_job    
+
+      parameters:
+        - name: catalog
+          default: ${var.catalog}
+        - name: schema
+          default: ${var.schema}
+
+      tasks:
+        - task_key: notebook_task
+          notebook_task:
+            notebook_path: ../ddls/ddl_notebook.ipynb
