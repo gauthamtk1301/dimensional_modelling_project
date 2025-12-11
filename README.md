@@ -22,6 +22,9 @@ Combines the flexibility of a data lake with the reliability and performance of 
 **Dimensional modelling**:
 Gold layer is modeled as a star schema for ease of querying and understandings.
 
+**Deployment**:
+Leverages Github Actions and Databricks Asset bundles for automated deployments.
+
 ---
 ## 📊 Gold Layer Data Catalog
 
@@ -36,12 +39,13 @@ Gold layer is modeled as a star schema for ease of querying and understandings.
 ---
 ## 🧠 Technologies Used
 
-| Category                       | Tools / Frameworks                  |
-| ------------------------------ | ----------------------------------- |
-| **Compute & Processing**       | Apache Spark (Structured Streaming) |
-| **Platform**                   | Databricks                          |
-| **Storage**                    | Delta Lake                          |
-| **Data Modeling**              | Star Schema, SCD Type 2             |
-| **Languages**                  | PySpark, SQL                        |
-| **Orchestration / Automation** | Databricks Jobs, Auto Loader        |
+| Category                       | Tools / Frameworks                            |
+| ------------------------------ | --------------------------------------------- |
+| **Compute & Processing**       | Apache Spark (Structured Streaming)           |
+| **Platform**                   | Databricks                                    |
+| **Storage**                    | Delta Lake                                    |
+| **Data Modeling**              | Star Schema, SCD Type 2                       |
+| **Languages**                  | PySpark, SQL                                  |
+| **Orchestration / Automation** | Databricks Jobs, Auto Loader                  |
+| **Deployment / CICD**          | Databricks Asset Bundles, GitHub Actions      |
 
